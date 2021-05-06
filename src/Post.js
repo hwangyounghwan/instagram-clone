@@ -70,7 +70,7 @@ function Post({ postId,username, caption, imageUrl, user}) {
                         className="post__button"
                         disabled={!comment}
                         type="submit"
-                        onClick={postComment} >등록
+                        onClick={postComment} >게시
                     </button>
 
                 </form>
